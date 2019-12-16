@@ -5,7 +5,7 @@
 var timeLeft = document.querySelector
 
   // start game button
-var gameButton = document.querySelector
+var gameButton = document.querySelector()
 
   // start-screen element
 var startScreen = document.querySelector
