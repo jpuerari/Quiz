@@ -1,17 +1,18 @@
+//alert
+alert("welcome! Let's play a little trivia game.");
+
+
 // create variables to reference all DOM elements we're working with
   
   // time-left
 
-var timeLeft = document.querySelector
 
+  
   // start game button
-var gameButton = document.querySelector()
 
   // start-screen element
-var startScreen = document.querySelector
 
   // quiz-content
-var quizContent = document.querySelector
 
   // post-game-screen
   // user-score

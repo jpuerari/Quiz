@@ -1,5 +1,3 @@
-alert("Welcome to the Spain geography quiz!");
-
 
 
 var questions = [
