@@ -1,5 +1,3 @@
-
-
 var questions = [
   {
     question: "What is the capital of Spain?",
@@ -10,7 +8,7 @@ var questions = [
     question: "The Valencian Community is located along the Mediterranean Sea",
     choices: ["True", "False"],
     answer: "True"
-  }
+  },
   {
     question: "Is Spain a Constitutional Monarchy?",
     choices: ["True", "False"],
