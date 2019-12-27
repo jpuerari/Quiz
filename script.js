@@ -1,5 +1,8 @@
+//step 1: create an alert
+
 alert("welcome!");
 
+//step 2: create variables to reference all DOM elements we're working with
 
 var timeEl =document.querySelector("#time-left");
 var mainEl = document.querySelector("#main");
@@ -13,6 +16,24 @@ var score = 0;
 var topScore = 0;
 var timerInterval = 0;
 var index = 0;
+
+
+  
+  // start game button
+
+  // start-screen element
+
+  // quiz-content
+
+  // post-game-screen
+  // user-score
+  // play-again-btn
+
+
+// create variables for game logic
+  // timerIntervalId
+  // score
+  // secondsLeft
 
 
 // create function to start game
@@ -131,5 +152,67 @@ function displayQuestion() {
 
 
 
+
+
+  // var title = document.createElement("h3");
+  // //<h3></h3>
+  //  //title.textContent = "The Valencian Community is located along the Mediterranean Sea"
+  // title.textContent = questions[1].question;
+  // console.log(title)
+  // quizContent.appendChild(title)
+
+
+
+
+  // var title = document.createElement("h3");
+  // //<h3></h3>
+  // //title.textContent = Is Spain a Constitutional Monarchy?
+  // title.textContent = questions[2].question;
+  // console.log(title)
+  // quizContent.appendChild(title)
+
+
+
+  // var title = document.createElement("h3");
+  // //<h3></h3>
+  // //title.textContent = Within the Valencian Community, which language is spoken along with Spanish?
+  // title.textContent = questions[3].question;
+  // console.log(title)
+  // quizContent.appendChild(title)
+
+
+
+
+  // get questions[questionIndex]
+  // print question to the page
+  // use data attribute to know which index the question is
+  // loop through choices and print out choices to the page (make them buttons)
+
+}
+
+// create function to handle users answering
+  // use event delegation to make sure button was clicked
+  // read data attribute of what question we answered (index)
+  // check to see if choice picked is same as questions correct answer
+  // if yes, increase score++
+  // if no, subtract time from secondsLeft
+  
+  // get index of next question (this question's index + 1)
+  // run displayQuestion(nextQuestionIndex)
+
+
+
+// create a function to stop the game (either by answering all the questions or time has run out)
+  // clearInterval() to stop the timer
+  // hide quiz-content element
+  // show post-game-screen
+  // print out user score
+
+
+
+// add event listeners
+  // start game button (for starting the game)
+  // quizcontent (for answering a question) -> use event delegation
+  // play again button (for starting the game)
 
 startBtn.addEventListener("click", startGame)
