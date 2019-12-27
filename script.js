@@ -18,7 +18,8 @@ var timerInterval = 0;
 var index = 0;
 
 
-  
+  //step 3: list your functions and loops
+
   // start game button
 
   // start-screen element
